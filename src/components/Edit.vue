@@ -61,6 +61,7 @@ export default {
         grade: self.student.grade,
         gender: self.student.gender,
         phone: self.student.phone,
+        age: self.student.age
       }
       db.collection(self.fbCollection)
           .doc(self.id)
