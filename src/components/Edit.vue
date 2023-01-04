@@ -6,12 +6,12 @@
       </div>
     </nav>
 
-    학번: <input type="number" v-model="student.studentID"> <div></div>
-    이름: <input type="text" v-model="student.name"> <div></div>
-    학년: <input type="number" v-model="student.grade"> <div></div>
-    나이: <input type="number" v-model="student.age"> <div></div>
-    성별: <input type="text" v-model="student.gender"> <div></div>
-    번호: <input type="text" v-model="student.phone"> <div></div>
+    <div>학번: <input type="number" v-model="student.studentID"></div>
+    <div>이름: <input type="text" v-model="student.name"></div>
+    <div>학년: <input type="number" v-model="student.grade"> </div>
+    <div>나이: <input type="number" v-model="student.age"> </div>
+    <div>성별: <input type="text" v-model="student.gender"> </div>
+    <div>번호: <input type="text" v-model="student.phone"> </div>
 
     <div></div>
     <button type="button" class="btn btn-mdb-color" @click = 'confirm'>확인</button>

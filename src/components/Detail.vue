@@ -12,8 +12,8 @@
     <h5> 성별 : {{student.gender}} </h5>
     <h5> 핸드폰 : {{student.phone}} </h5>
 
-    <button type="button" class="btn btn-mdb-color" @click = 'delInfo'>삭제</button>
-    <button type="button" class="btn btn-mdb-color" @click = 'goEdit'>수정</button>
+    <button type="button" class="btn btn-danger" @click = 'delInfo'>삭제</button>
+    <button type="button" class="btn btn-primary" @click = 'goEdit'>수정</button>
     <button type="button" class="btn btn-mdb-color" @click = 'goHome'>확인</button>
 
   </div>
@@ -71,7 +71,7 @@ export default {
     goEdit() {
       const self = this;
       self.$router.push({name: 'edit'})
-    }
+    },
 
 
   },

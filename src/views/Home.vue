@@ -6,12 +6,11 @@
       </div>
     </nav>
 
-    <table>
+    <table class = "table table-bordered">
       <tr>
         <th>학번</th>
         <th>이름</th>
         <th>-</th>
-
       </tr>
       <tr v-for = "row in rows" :key="row.id">
         <td>{{ row.studentID}}</td>
@@ -91,16 +90,16 @@ home {
   text-align: center;
   color: #2c3e50;
 }
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 50%;
-  margin : 100px;
-}
-td, th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 8px;
-}
+/*table {*/
+/*  font-family: arial, sans-serif;*/
+/*  border-collapse: collapse;*/
+/*  width: 50%;*/
+/*  margin : 100px;*/
+/*}*/
+/*td, th {*/
+/*  border: 1px solid #dddddd;*/
+/*  text-align: center;*/
+/*  padding: 8px;*/
+/*}*/
 
 </style>
