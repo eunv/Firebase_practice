@@ -1,5 +1,11 @@
 <template>
   <div class="home">
+    <nav class="navbar fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">학생정보</a>
+      </div>
+    </nav>
+
     <table>
       <tr>
         <th>학번</th>
@@ -73,7 +79,13 @@ export default {
 </script>
 
 <style>
-
+home {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
