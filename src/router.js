@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Detail from "@/components/Detail.vue";
+import Edit from "@/components/Edit.vue";
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/detail/:id',
       name: 'detail',
       component: Detail
+    },
+    {
+      path: '/edit/:id',
+      name: 'edit',
+      component: Edit
     }
   ]
 })
