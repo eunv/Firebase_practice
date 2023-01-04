@@ -22,6 +22,7 @@
       </tr>
     </table>
     <p></p>
+    <button type="button" class="btn btn-mdb-color" @click = "gotoAdd">add</button>
   </div>
 </template>
 
@@ -68,7 +69,11 @@ export default {
     gotoDetail(value) {
       const self = this;
       self.$router.push({name: 'detail', params:{id: value}})
-    }
+    },
+    gotoAdd() {
+      const self = this;
+      self.$router.push({name: 'add'})
+    },
 
 
   },
